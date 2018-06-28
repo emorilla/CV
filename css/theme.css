@@ -1,0 +1,112 @@
+/*
+*Fonts
+*/
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,500,600,700,800");
+/*
+*Global
+*/
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #343434;
+  background: #f1f1f1; }
+
+.h-100 {
+  height: 100%; }
+
+.w-100 {
+  width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700; }
+
+h3 {
+  font-size: 1.5rem; }
+
+.sub-heading {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.section-page {
+  min-height: 100vh;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  border-bottom: 1px solid #343434; }
+
+#navigation .nav-link {
+  text-transform: uppercase;
+  font-weight: 400; }
+
+#about .fa-lg {
+  font-size: 20px;
+  color: #343434; }
+
+#about .fa-lg:hover {
+  color: #202020; }
+
+.list-icons {
+  font-size: 3rem; }
+
+.list-icons .list-inline-item i:hover {
+  color: #202020; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; }
+  h1 {
+    font-size: 5.5rem;
+    font-weight: 700; }
+  h2 {
+    font-size: 3rem;
+    font-weight: 700; }
+  .sub-heading {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase; }
+  #about .fa-lg {
+    font-size: 35px;
+    color: #343434; }
+  #about .fa-lg:hover {
+    color: #202020; }
+  #navigation {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #navigation .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #navigation .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #navigation .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #navigation .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #navigation .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #navigation .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; }
+  .section-page {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
